@@ -1,6 +1,6 @@
 * {
   margin: 0;
-
+  box-sizing: border-box;
   padding: 0;
   /* word-wrap: break-word; */
   /* background-clip: content-box;  */
@@ -9,13 +9,12 @@ body html{
   overflow: auto;
 }
 body {
-  /* background-image:url('./pics/141-1410793_4k-resolution-car-wallpapers-for-pc-4k.jpg'); */
-  
-  background-color: 0;
+  background: rgb(203, 224, 175);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* navbar css start */
 .navbar {
+  border-radius: .6rem;
   overflow: hidden;
   margin: auto;
   display: flex;
@@ -26,6 +25,7 @@ body {
   max-width: 85vw;
 }
 .textarea{
+  background-color: #FAF9F6;
   size: 10rem;
   overflow: hidden;
   margin-left:10%;
@@ -34,7 +34,8 @@ body {
   text-align: center;
   resize: none;
 }
-.naa{overflow: hidden;
+.naa{
+  overflow: hidden;
   margin-left:5%;
  
 }
@@ -44,6 +45,7 @@ body {
 }
 
 ul {
+  
   overflow: hidden;
   height: 2.8rem;
   display: flex;
@@ -56,7 +58,6 @@ ul {
 }
 
 li {
-  color: rgb(98, 255, 0);
   overflow: hidden ;
   text-wrap: wrap;
   margin: 0rem 1rem;
@@ -64,3 +65,37 @@ li {
   flex-grow: 1;
   white-space: nowrap;
 }
+li a{
+  color: rgb(255, 0, 0);
+}
+/* navbar css ends here */
+
+.holder{ 
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem;
+  gap: 1rem;
+  justify-content: center;
+} 
+
+.card{
+  background-color: white;
+  border-radius:1rem; 
+  margin: auto;
+  width:20rem;
+}
+.card:hover{
+  box-shadow: 1px 1px 10px;
+}
+.card-img{
+  width: 20rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  height: 15rem;
+}
+.card-body{
+  margin: 1rem;
+  width: 20rem;
+  height: 6rem;
+}
+
