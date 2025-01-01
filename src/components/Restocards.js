@@ -1,19 +1,25 @@
 import React from 'react'
+import { restos } from '../data';
 const Restocards = () => {
   return (
     <>
-      <div className="card">
-        <img className='card-img'
-          src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg"
-          alt=""
+        {restos.map((intel) => { 
+          return (
+            <div className="card">
+              <img
+                className="card-img"
+                src={intel.img}
+                alt="No Image"
               />
               <div className="card-body">
-                <h2 className="card-title">Restaurant Name</h2>
+                <h2 className="card-title">{intel.name}</h2>
                 <p className="card-text">stuff</p>
                 <p className="card-text">stuffff</p>
-                <p className="card-text">stufffffff</p>   
-        </div>
-      </div>
+                <p className="card-text">stuff</p>
+              </div>
+            </div>
+          );
+         })}
     </>
   );
 }
