@@ -24,16 +24,19 @@ body {
   margin: auto;
   display: flex;
   align-items: center; 
-  background-color: #FFFF00;
-  box-shadow: 9px 8px 20px #FFD700;
+  background-color: #ffffff;
+  box-shadow: 9px 8px 20px #b2af9f14;
   /* width:max-content; */
   max-width: 85vw;
 }
 .textarea{
+  box-shadow:  1px 1px 20px #c4c2b89b;
+  border:none;
   background-color: #FAF9F6;
   size: 10rem;
   overflow: hidden;
   margin-left:10%;
+  height: 2.5rem;
   width:750px;
   border-radius: 0.2rem;
   text-align: center;
@@ -70,7 +73,7 @@ li {
   flex-grow: 1;
   white-space: nowrap;
 }
-li a{
+li a{   
   color: rgb(255, 0, 0);
 }
 /* navbar css ends here */
@@ -78,9 +81,9 @@ li a{
 .holder{ 
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: 20rem 20rem 20rem 20rem;
+  grid-template-columns:  20rem 20rem 20rem;
   /* grid-template-rows: 20rem 20rem 20rem 20rem; */
-  gap: 1rem;
+  gap: 4rem;
   justify-content: center;  
 } 
 
@@ -89,16 +92,17 @@ li a{
   border-radius:1rem; 
   height: 20rem;
   margin: auto;
-  width:20rem;
+  width:23rem;
   transition: box-shadow 0.2s ease;
 }
 .card:hover{  
   z-index: 1070;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .card-img{
   padding: .5rem;
-  width: 20rem;
+  width: 100%;
+  object-fit: cover;
   border-radius: 2rem;
   height: 15rem;
 }
