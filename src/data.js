@@ -17,20 +17,60 @@ import img16 from "./pics/pexels-vince-2147491.jpg"
 
 
 export const restos = [
-  { img: img1, name: "911", cusine: "", price: "" },
-  { img: img2, name: "P1", cusine: "", price: "" },
-  { img: img3, name: "M2", cusine: "", price: "" },
-  { img: img4, name: "M8", cusine: "", price: "" },
-  { img: img5, name: "Macan", cusine: "", price: "" },
-  { img: img6, name: "corvet", cusine: "", price: "" },
-  { img: img7, name: "Mustang", cusine: "", price: "" },
-  { img: img8, name: "Camaro", cusine: "", price: "" },
-  { img: img9, name: "Challenger", cusine: "", price: "" },
-  { img: img10, name: "Charger", cusine: "", price: "" },
-  { img: img11, name: "Civic", cusine: "", price: "" },
-  { img: img12, name: "Accord", cusine: "", price: "" },
-  { img: img13, name: "Pagani ", cusine: "", price: "" },
-  { img: img14, name: "Revolto", cusine: "", price: "" },
-  { img: img15, name: "Lexus LFA", cusine: "", price: "" },
-  { img: img16, name: "Panamara", cusine: "", price: "" }
+  { img: img1, name: "911", cusine: "", price: "pizza "},
+  { img: img2, name: "P1", cusine: "", price: "pasta " },
+  { img: img3, name: "M2", cusine: "", price: "paneer" },
+  // { img: img4, name: "M8", cusine: "", price: "" },
+  // { img: img5, name: "Macan", cusine: "", price: "" },
+  // { img: img6, name: "corvet", cusine: "", price: "" },
+  // { img: img7, name: "Mustang", cusine: "", price: "" },
+  // { img: img8, name: "Camaro", cusine: "", price: "" },
+  // { img: img9, name: "Challenger", cusine: "", price: "" },
+  // { img: img10, name: "Charger", cusine: "", price: "" },
+  // { img: img11, name: "Civic", cusine: "", price: "" },
+  // { img: img12, name: "Accord", cusine: "", price: "" },
+  // { img: img13, name: "Pagani ", cusine: "", price: "" },
+  // { img: img14, name: "Revolto", cusine: "", price: "" },
+  // { img: img15, name: "Lexus LFA", cusine: "", price: "" },
+  // { img: img16, name: "Panamara", cusine: "", price: "" }
+];
+export const Mdata = [
+  { img: img1, name: "911",catogs:"Pizza, Beverages, Deserts", location:"New Delhi",contact: "9999242198" ,timings: "11:00 AM - 11:00 PM",}
+]
+
+
+
+export const food = [
+  {food:""}
+]
+
+
+
+export const Ndata = [
+  {
+    img: "https://example.com/image1.jpg",
+    name: "Pizza",
+    catogs: "Pizza, Beverages, Deserts",
+    location: "New Delhi",
+    contact: "9999242198",
+    timings: "11:00 AM - 11:00 PM",
+    variations: [
+      { flavor: "Margherita", price: "$10" },
+      { flavor: "Pepperoni", price: "$12" },
+      { flavor: "BBQ Chicken", price: "$15" },
+    ],
+  },
+  {
+    img: "https://example.com/image2.jpg",
+    name: "Burger",
+    catogs: "Fast Food",
+    location: "Mumbai",
+    contact: "8888888888",
+    timings: "10:00 AM - 10:00 PM",
+    variations: [
+      { flavor: "Cheese Burger", price: "$8" },
+      { flavor: "Veggie Burger", price: "$7" },
+      { flavor: "Chicken Burger", price: "$9" },
+    ],
+  },
 ];

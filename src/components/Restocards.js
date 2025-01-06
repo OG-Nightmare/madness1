@@ -1,4 +1,5 @@
 import React from 'react'
+import { memo } from 'react';
 import { restos } from '../data';
 const Restocards = () => {
   return (
@@ -10,6 +11,7 @@ const Restocards = () => {
                 className="card-img"
                 src={intel.img}
                 alt="No Image"
+                loading='lazy'
               />
               <div className="card-body">
                 <h2 className="card-title">{intel.name}</h2>
@@ -24,4 +26,4 @@ const Restocards = () => {
   );
 }
 
-export default Restocards
+export default memo(Restocards);

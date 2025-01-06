@@ -74,7 +74,7 @@ li {
   white-space: nowrap;
 }
 li a{   
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
 }
 /* navbar css ends here */
 
@@ -119,3 +119,75 @@ li a{
 /* .card-title{
   border-style: solid;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* try code not mine generated */
+
+.flavors-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.menu-details {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-details {
+  width: 65%;
+  padding-left: 1rem;
+}
+
+.menu-details h2 {
+  margin-top: 0;
+}
+
+.flavor-item {
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+/* end of generated code */
