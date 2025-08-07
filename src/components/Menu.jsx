@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Ndata } from "../data";
+import { Ndata } from "../data/Ndata"; // Ensure this matches the actual file name
 
 const Menu = () => {
   const [selectedDish, setSelectedDish] = useState(null);

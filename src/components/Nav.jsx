@@ -1,5 +1,6 @@
+
 import React from "react";
-import logo from "../pics/pngwing.com.png"
+import logo from "../assets/pics/pngwing.com.png";
 const Nav = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Nav = () => {
         <textarea
           className="textarea"
           name="search"
-          placeholder="search tera bhai kareg"
+          placeholder="search here"
         ></textarea>
 
         <ul className="naa">
