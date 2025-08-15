@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* word-wrap: break-word; */
+  /* background-clip: content-box;  */
+}
+html{
+  overflow: auto;
+  scroll-behavior: w3-smooth;
+}
+body {
+  scrollbar-highlight-color: #FFFF00;
+  /* background: rgb(203, 224, 175); */
+  /* background-image: url('https://wallpapers.com/images/featured/4k-car-g6a4f0e15hkua5oa.jpg'); */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* navbar css start */
+.navbar {
+  background: transparent;
+  z-index:22;
+  border-radius: .6rem;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  background-color: #ffffff;
+  box-shadow: 9px 8px 20px #b2af9f14;
+  /* width:max-content; */
+  max-width: 85vw;
+}
+.textarea{
+  box-shadow:  1px 1px 20px #c4c2b89b;
+  border:none;
+  background-color: #FAF9F6;
+  size: 10rem;
+  overflow: hidden;
+  margin-left:10%;
+  height: 2.5rem;
+  width:750px;
+  border-radius: 0.2rem;
+  text-align: center;
+  resize: none;
+}
+.naa{
+  overflow: hidden;
+  margin-left:5%;
+ 
+}
+.log {overflow: hidden;
+  width:10rem;
+  margin-left:2%;
+}
+
+ul {
+  
+  overflow: hidden;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  list-style: none;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+li {
+  overflow: hidden ;
+  text-wrap: wrap;
+  margin: 0rem 1rem;
+  font-size: 1vw;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+li a{   
+  color: rgb(0, 0, 0);
+}
+/* navbar css ends here */
+
+.holder{ 
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns:  20rem 20rem 20rem;
+  /* grid-template-rows: 20rem 20rem 20rem 20rem; */
+  gap: 4rem;
+  justify-content: center;  
+} 
+
+.card{
+  background-color: white;
+  border-radius:1rem; 
+  height: 20rem;
+  margin: auto;
+  width:23rem;
+  transition: box-shadow 0.2s ease;
+}
+.card:hover{  
+  z-index: 1070;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.card-img{
+  padding: .5rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  height: 15rem;
+}
+.card-body{
+  margin: 1rem;
+  margin-top: 0;
+  display:grid;
+  grid-template-columns: 14rem 2rem;
+  grid-template-rows: 2rem 2rem;
+  width: 18rem;
+  /* border-style: solid; */
+  height: 6rem;
+}
+/* .card-title{
+  border-style: solid;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* try code not mine generated */
+
+.flavors-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.menu-details {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-details {
+  width: 65%;
+  padding-left: 1rem;
+}
+
+.menu-details h2 {
+  margin-top: 0;
+}
+
+.flavor-item {
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+/* end of generated code */
